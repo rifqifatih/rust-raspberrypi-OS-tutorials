@@ -67,7 +67,7 @@ other Unix flavors such as **macOS**, but this is only _experimental_.
 1. [Install Docker][install_docker].
 1. Ensure your user account is in the [docker group].
 1. Prepare the `Rust` toolchain. Most of it will be handled on first use through the
-   [rust-toolchain](rust-toolchain) file. What's left for us to do is:
+   [rust-toolchain](rust-toolchain.toml) file. What's left for us to do is:
    1. If you already have a version of Rust installed:
       ```bash
       cargo install cargo-binutils rustfilt
